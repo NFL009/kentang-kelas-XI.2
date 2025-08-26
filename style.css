@@ -99,34 +99,13 @@ body {
   box-shadow: var(--shadow-neon);
 }
 
-.burger span,
-.burger span:before,
-.burger span:after {
-  content: "";
-  display: block;
-  width: 18px;
-  height: 2px;
-  background: #fff;
-  border-radius: 2px;
-  position: relative;
-}
-
-.burger span:before {
-  position: absolute;
-  top: -6px;
-}
-
-.burger span:after {
-  position: absolute;
-  top: 6px;
-}
-
 .panel {
   background: var(--card);
   border: 1px solid var(--stroke);
   border-radius: var(--radius);
   box-shadow: var(--shadow-neon);
   padding: 14px;
+  
 }
 
 .panel-title {
@@ -335,12 +314,6 @@ body {
   font-weight: 700;
   cursor: pointer;
   box-shadow: var(--shadow-neon);
-}
-
-.kicker {
-  font-family: 'Balsamiq Sans', cursive;
-  font-size: 0.8rem;
-  opacity: 0.9;
 }
 
 @media (min-width: 768px) {
